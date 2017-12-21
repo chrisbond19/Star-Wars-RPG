@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Star Wars RPG Game</title>
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 text-center title">
+                        <!--Star Wars Logo-->
+                        <img src="assets/images/starwarstitle.png">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center" id="characters-available">
+                <h1>The Light Side</h1>
+                <div class="character-image available-character" id="luke-skywalker">
+                  <p>Luke Skywalker</p>
+                  <img src="assets/images/lukeskywalker.png" alt="Luke Skywalker" id="lukeskywalker-image" class="chosen-ones">
+                  <p class="health">120</p>
+
+                </div>
+
+                <div class="character-image available-character" id="anakin-skywalker">
+                  <p>Anakin Skywalker</p>
+                  <img src="assets/images/anakinskywalker.png" alt="Anakin Skywalker" id="anakinskywalker-image" class="chosen-ones">
+                  <p class="health">120</p>
+                </div>
+
+                <div class="character-image available-character" id="yoda">
+                  <p>Yoda</p>
+                  <img src="assets/images/yoda.png" alt="Luke Skywalker" id="yoda-image" class="chosen-ones">
+                  <p class="health">120</p>
+                </div>
+
+                <div class="character-image available-character" id="han-solo">
+                  <p>Han Solo</p>
+                  <img src="assets/images/hansolo.png" alt="Han Solo" id="hansolo-image" class="chosen-ones">
+                  <p class="health">120</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                <h1>Your Character</h1>
+                <p id="yourTagline">You will fight with this character!</p>
+                <div id="attack"></div>
+                <div id="chosen"></div>
+
+              </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center" id="characters-available">
+                <h1>The Dark Side</h1>
+                <div class="character-image available-character" id="storm-trooper">
+                  <p>Storm Trooper</p>
+                  <img src="assets/images/stormtrooper.png" alt="Storm Trooper" id="stormtrooper-image" class="chosen-ones">
+                  <p class="health">120</p>
+                </div>
+
+                <div class="character-image available-character" id="darth-vader">
+                  <p>Darth Vader</p>
+                  <img src="assets/images/darthvader.png" alt="Darth Vader" id="darthvader-image" class="chosen-ones">
+                  <p class="health">120</p>
+                </div>
+
+                <div class="character-image available-character" id="darth-maul">
+                  <p>Darth Maul</p>
+                  <img src="assets/images/darthmaul.png" alt="Darth Maul" id="darthmaul-image" class="chosen-ones">
+                  <p class="health">120</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                <h1>Your Enemy</h1>
+                <p id="enemyTagline">You will fight against this character!</p>
+                <div id="enemy"></div>
+              </div>
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>

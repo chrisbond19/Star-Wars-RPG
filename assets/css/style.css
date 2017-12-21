@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+}
+.title{
+	margin-top: 50px;
+}
+.chosen-ones{
+	height: 250px;
+	width: 250px;
+	margin-right: 10px;
+}
+p{
+	color: #ffd700;
+	font-size: 20px;
+	text-align: center;
+}
+.character-image{
+	float: left;
+	text-align: center;
+}
+#characters-available{
+
+	margin: 0 auto;
+}
+h1{
+	color: white;
+}
+#chosen, #enemy{
+	display: block;
+	margin: auto;
+	transform: translate(35%, 35%);
+
+}
